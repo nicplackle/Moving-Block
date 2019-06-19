@@ -1,5 +1,18 @@
-document.getElementById("gamepiece");
+// mexican wrestler
+var wrestler = document.createElement("img");
+wrestler.src = "../img/wrestler.png";
+var src = document.getElementById("gamepiece");
+src.appendChild(wrestler);
+
+// taco
+var taco = document.createElement("img");
+taco.src = "../img/taco.png";
+var src = document.getElementById("taco");
+src.appendChild(taco);
+
+// game area
 var canvas = document.getElementById("canvas");
+
 var myGamePieceLeft = 0;
 var myGamePieceTop = 0;
 

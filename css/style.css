@@ -7,10 +7,6 @@
 }
 
 #gamepiece {
-  height: 50px;
-  width: 50px;
-  outline: 1px solid black;
-  background-color: red;
   position: absolute;
   left: 0;
 }
