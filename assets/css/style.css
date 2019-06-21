@@ -11,7 +11,7 @@ body {
 
 #container {
   background-color: rgb(100, 209, 136, 0.5);
-  border: 40px solid rgba(190, 62, 30, 0.5);
+  border: 15px solid rgba(190, 62, 30, 0.5);
   height: 500px;
   width: 750px;
   margin-top: 100px;
@@ -28,7 +28,7 @@ body {
   left: 0;
   z-index: 0;
   color: #04d99d;
-  font-size: 400px;
+  font-size: 100px;
 }
 
 #square {
