@@ -1,0 +1,126 @@
+html {
+  background-image: url("../images/fajitabackground.jpg");
+  align-content: center;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 0, 0, 0);
+  font-family: "Luckiest Guy", cursive;
+}
+
+#container {
+  background-color: rgb(100, 209, 136, 0.5);
+  border: 40px solid rgba(190, 62, 30, 0.5);
+  height: 500px;
+  width: 750px;
+  margin-top: 100px;
+  padding: 0;
+  position: relative;
+}
+
+#counter {
+  margin-top: 0%;
+  height: 500px;
+  width: 750px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  color: #04d99d;
+  font-size: 400px;
+}
+
+#square {
+  background-image: url("../images/wrestler.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 62px;
+  z-index: 2;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+#food {
+  background-image: url("../images/taco.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 51px;
+  height: 42px;
+  z-index: 2;
+  filter: drop-shadow(0 0 2px #04d99d0c);
+}
+
+#victory {
+  margin-top: 10%;
+  height: 500px;
+  width: 750px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #e7d806;
+  font-size: 100px;
+  text-align: center;
+  display: none;
+}
+
+#loss {
+  margin-top: 10%;
+  height: 300px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #d93604;
+  font-size: 100px;
+  text-align: center;
+  display: none;
+}
+
+#resetBtn {
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  background-color: #e41717;
+  margin-left: 40%;
+  margin-top: 55%;
+  display: none;
+  z-index: 3;
+}
+
+#intro {
+  margin-top: 10%;
+  height: 500px;
+  width: 750px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: #83f205;
+  font-size: 60px;
+  text-align: center;
+}
+
+#progressbar {
+  height: 5px;
+  background-color: #83f205;
+  transition-timing-function: ease-in;
+  transition: 0.1s;
+  display: none;
+  z-index: 3;
+}
+
+#highscore {
+  font-size: 40px;
+  position: absolute;
+  margin-top: 5%;
+  z-index: 3;
+  color: #fff12b;
+  text-align: center;
+  margin-left: 33%;
+}
