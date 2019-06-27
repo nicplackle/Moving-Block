@@ -21,8 +21,8 @@ let newHighscore = "";
 function animate(e) {
   if (e.keyCode === 39) {
     squareLeft += 50;
-    if (squareLeft >= 670) {
-      squareLeft = 670;
+    if (squareLeft >= 650) {
+      squareLeft = 650;
     }
   }
 
